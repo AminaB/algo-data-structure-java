@@ -20,11 +20,26 @@ public class ArraysAlgo {
         result[result.length-1]=array[0];
         return result;
     }
+    public static int[] insertElement(int [] array, int el, int index){
+        int [] result= new int[array.length+1];
+        result[index]=el;
+        for(int i=0; i< array.length; i++){
+            if(i<index){
+                result[i]= array[i];
+            }
+            else {
+                result[i+1]=array[i];
+            }
+        }
+        return result;
+    }
+
     public static void main(String[] args) {
         int[] arrayTest = {10,3, 5, 8, 9, 1};
         System.out.println(secondLargestNumber(arrayTest));
         int[] arrayTest2 = {10,3, 5, 8, 9, 1};
         System.out.println(Arrays.toString(rotateArray(arrayTest2)));
+        System.out.println(Arrays.toString(insertElement(arrayTest2, 15, 3)));
 
     }
 }
