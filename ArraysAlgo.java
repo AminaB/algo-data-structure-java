@@ -33,14 +33,20 @@ public class ArraysAlgo {
         }
         return result;
     }
-
+    public static int [] deleteElement(int[] array, int index){
+        int [] result= new int[array.length-1] ;
+        for(int i=0; i<result.length; i++){
+            if(i<index){
+                result[i]=array[i];
+            }else{
+                result[i]=array[i+1];
+            }
+        }
+        return result;
+    }
     public static void main(String[] args) {
         int[] arrayTest = {10,3, 5, 8, 9, 1};
-        System.out.println(secondLargestNumber(arrayTest));
-        int[] arrayTest2 = {10,3, 5, 8, 9, 1};
-        System.out.println(Arrays.toString(rotateArray(arrayTest2)));
-        int[] arrayTest3 = {3,9, 7, 8, 12, 6};
-        System.out.println(Arrays.toString(insertElement(arrayTest3, 20, 2)));
+        System.out.println(Arrays.toString(deleteElement(arrayTest,  2)));
 
     }
 }
