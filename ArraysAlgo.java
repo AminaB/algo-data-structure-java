@@ -13,8 +13,18 @@ public class ArraysAlgo {
         System.out.println("second largest notfound");
         return -1;
     }
+    public static int[] rotateArray(int [] array){
+        int [] result= new int[array.length];
+        if (result.length - 1 >= 0)
+            System.arraycopy(array, 1, result, 0, result.length - 1);
+        result[result.length-1]=array[0];
+        return result;
+    }
     public static void main(String[] args) {
         int[] arrayTest = {10,3, 5, 8, 9, 1};
         System.out.println(secondLargestNumber(arrayTest));
+        int[] arrayTest2 = {10,3, 5, 8, 9, 1};
+        System.out.println(Arrays.toString(rotateArray(arrayTest2)));
+
     }
 }
