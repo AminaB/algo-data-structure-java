@@ -39,7 +39,8 @@ public class ArraysAlgo {
         System.out.println(secondLargestNumber(arrayTest));
         int[] arrayTest2 = {10,3, 5, 8, 9, 1};
         System.out.println(Arrays.toString(rotateArray(arrayTest2)));
-        System.out.println(Arrays.toString(insertElement(arrayTest2, 15, 3)));
+        int[] arrayTest3 = {3,9, 7, 8, 12, 6};
+        System.out.println(Arrays.toString(insertElement(arrayTest3, 20, 2)));
 
     }
 }
