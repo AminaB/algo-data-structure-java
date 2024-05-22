@@ -13,7 +13,7 @@ public class CharFunction {
          }
          result.append('-');
         }
-        return String.valueOf(result).substring(0, result.length()-1);
+        return result.substring(0, result.length()-1);
     }
 
     public static void main(String[] args) {
