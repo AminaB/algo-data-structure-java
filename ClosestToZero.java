@@ -11,7 +11,7 @@ public class ClosestToZero {
             if (Math.abs(t) < Math.abs(closest)) {
                 closest = t;
             } else if (Math.abs(t) == Math.abs(closest)) {
-                closest = t < closest ? closest : t;
+                closest = Math.max(t, closest);
             }
         }
 
