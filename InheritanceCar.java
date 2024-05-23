@@ -1,4 +1,17 @@
 public class InheritanceCar {
+    public static void main(String[] args) {
+        LuxuryCar lc= new LuxuryCar();
+        lc.start();
+        lc.accelerate();
+        lc.changeGear();
+        lc.openRoof();
+
+        Car c = new LuxuryCar();
+        c.start();
+        c.accelerate();
+        c.changeGear();
+        //c.openRoof();
+    }
 }
 
 class Car{
