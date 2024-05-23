@@ -1,3 +1,5 @@
+package cours;
+
 public class InheritanceCar {
     public static void main(String[] args) {
         LuxuryCar lc= new LuxuryCar();

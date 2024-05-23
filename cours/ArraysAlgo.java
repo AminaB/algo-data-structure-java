@@ -1,3 +1,5 @@
+package cours;
+
 import java.util.Arrays;
 
 public class ArraysAlgo {
