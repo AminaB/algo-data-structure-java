@@ -23,3 +23,9 @@ nb : method will call on the object. Here on the child class. But method has to 
     local inner class : class inside method 
     anonymous inner class : define class content when we create the object (new class(){}), those classes are usually abstract
     static inner class : can access only static member of outer class
+
+----------static --------
+    static bloc use when we want to initialise something : static{}
+
+-------singleton ----------
+    class which can create just a single object.
