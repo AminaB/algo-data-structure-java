@@ -1,4 +1,4 @@
-//Write a program that prints the temperature closest to 0 among input data.
+package codingGame;//Write a program that prints the temperature closest to 0 among input data.
 // If two numbers are equally close to zero,
 // positive integer has to be considered closest to zero (for instance, if the temperatures are -5 and 5, then display 5).
 
@@ -21,5 +21,7 @@ public class ClosestToZero {
     public static void main(String[] args) {
         int [] test={1 ,-2, -8, 4, 5};
         System.out.println(closest(test));
+        int [] test2={6 ,7, 6, -5, 5};
+        System.out.println(closest(test2));
     }
 }
