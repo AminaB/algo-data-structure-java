@@ -26,6 +26,7 @@ nb : method will call on the object. Here on the child class. But method has to 
 
 ----------static --------
     static bloc use when we want to initialise something : static{}
+    static methods can only access static members
 
 -------singleton ----------
     class which can create just a single object.
