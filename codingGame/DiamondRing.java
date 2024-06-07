@@ -29,6 +29,6 @@ public class DiamondRing {
     }
 
     public static void main(String[] args) {
-        diamond(7);
+        diamond(15);
     }
 }
