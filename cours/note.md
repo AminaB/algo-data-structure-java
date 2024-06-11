@@ -39,4 +39,7 @@ nb : method will call on the object. Here on the child class. But method has to 
     Multi threading : things working simultaneously inside a SINGLE Application
 
     To achiev multithreading in java we use : extend thread class or implement Runnable Interface
-    
+
+    Thread can have priority (1 to 10 in java)
+    Daemon thread : is backgroud thread with least priority. ex : garbage collector
+    Synchronisation : fix probleme of ressource sharing in multi threading
