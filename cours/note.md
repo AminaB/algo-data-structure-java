@@ -43,3 +43,4 @@ nb : method will call on the object. Here on the child class. But method has to 
     Thread can have priority (1 to 10 in java)
     Daemon thread : is backgroud thread with least priority. ex : garbage collector
     Synchronisation : fix probleme of ressource sharing in multi threading
+    communication : use flag variable, wait() and notify() methods
