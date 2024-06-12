@@ -44,3 +44,23 @@ nb : method will call on the object. Here on the child class. But method has to 
     Daemon thread : is backgroud thread with least priority. ex : garbage collector
     Synchronisation : fix probleme of ressource sharing in multi threading
     communication : use flag variable, wait() and notify() methods
+
+--- java.lang package ------
+
+primitive : 
+    int
+    bool
+    double
+    char
+    byte
+    long
+    float
+    short
+String Buffer vs String builder
+    String buffer : you can add more char with append() or insert() in particular position, have some capacity.
+                    Thread safe (cannot use by two thread simultaneously). slower
+    String Builder : same as string builder, but not thread safe. faster
+
+Maths : https://github.com/mohammedabdulbari/Java-SE/blob/master/MathDemo.java
+
+Enum : content predefined final.
