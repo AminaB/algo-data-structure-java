@@ -83,3 +83,5 @@ nb : method will call on the object. Here on the child class. But method has to 
     Defined annotaions
     @interface MyAnno{
     }
+
+-----Lambda exp--------------
