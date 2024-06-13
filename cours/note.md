@@ -47,7 +47,7 @@ nb : method will call on the object. Here on the child class. But method has to 
 
 --- java.lang package ------
 
-primitive : 
+    primitive : 
     int
     bool
     double
@@ -56,11 +56,30 @@ primitive :
     long
     float
     short
-String Buffer vs String builder
+
+    String Buffer vs String builder:
     String buffer : you can add more char with append() or insert() in particular position, have some capacity.
                     Thread safe (cannot use by two thread simultaneously). slower
     String Builder : same as string builder, but not thread safe. faster
 
-Maths : https://github.com/mohammedabdulbari/Java-SE/blob/master/MathDemo.java
+    Maths : https://github.com/mohammedabdulbari/Java-SE/blob/master/MathDemo.java
 
-Enum : content predefined final.
+    Enum : content predefined final.
+
+----------Annotation-------
+    annotation can be used at class level, or method level
+    In-Built Annotations
+
+    @Override :
+    @Deprecated : on a methode, it's mean this methode is deprecated
+
+    @FunctionalInterface : if a interface content one method, it is called as functional interface
+    if an interface content only one single method, it can be used to defined lambda exp
+
+    @SuppressWarning : delete warning, ex: @SuppressWarning("deprecation")
+
+    @SafeVarargs : on private and final method, it is for warning on a variable arguments of method
+
+    Defined annotaions
+    @interface MyAnno{
+    }
