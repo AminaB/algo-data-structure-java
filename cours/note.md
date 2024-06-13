@@ -79,7 +79,7 @@ nb : method will call on the object. Here on the child class. But method has to 
     @SuppressWarning : delete warning, ex: @SuppressWarning("deprecation")
 
     @SafeVarargs : on private and final method, it is for warning on a variable arguments of method
-
+    Others : @Retention, @Documented :java doc, @target : where the nnotaton will be used, @Inherited, @Repeatbale
     Defined annotaions
     @interface MyAnno{
     }
