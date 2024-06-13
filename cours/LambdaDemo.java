@@ -16,7 +16,7 @@ public class LambdaDemo {
         MyLambda m = () -> {
                 System.out.println("Hello World");
             };
-
+        m.display();
 
     }
 }
