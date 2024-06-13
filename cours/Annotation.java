@@ -13,4 +13,5 @@ public class Annotation {
 @interface MyAnno
 {
     String name();
+    String version() default "13";
 }
