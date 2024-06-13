@@ -1,15 +1,16 @@
 package cours;
 
-@MyAnno
+@MyAnno(name = "Ami")
 public class Annotation {
-    @MyAnno
+    @MyAnno(name = "Ami")
     int data;
 
-    @MyAnno
+    @MyAnno(name = "Ami")
     public static void main(String[] args) {
 
     }
 }
 @interface MyAnno
 {
+    String name();
 }
