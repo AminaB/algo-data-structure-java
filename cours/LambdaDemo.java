@@ -2,21 +2,15 @@ package cours;
 
 @FunctionalInterface
 interface MyLambda{
-    public void display();
+    public int add(int x, int y);
 }
-class My implements MyLambda{
 
-    @Override
-    public void display() {
-        System.out.println("Hello World");
-    }
-}
 public class LambdaDemo {
     public static void main(String[] args) {
-        MyLambda m = () -> {
-                System.out.println("Hello World");
+        MyLambda m = (x,y) -> {
+               return x+y;
             };
-        m.display();
+        System.out.println(m.add(1,8));
 
     }
 }
