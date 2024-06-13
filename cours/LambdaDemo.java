@@ -13,7 +13,10 @@ class My implements MyLambda{
 }
 public class LambdaDemo {
     public static void main(String[] args) {
-        MyLambda m =new My();
-        m.display();
+        MyLambda m = () -> {
+                System.out.println("Hello World");
+            };
+
+
     }
 }
