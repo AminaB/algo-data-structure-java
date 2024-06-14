@@ -88,3 +88,5 @@ nb : method will call on the object. Here on the child class. But method has to 
 
     Lamnda cannot modify local variables of the method of the lambda.
     Lamnda can access and modify the variables of his class .
+
+    we can user reference to defined a lambda. ex : System.out::println, String::compareTo
