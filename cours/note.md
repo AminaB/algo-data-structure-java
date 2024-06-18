@@ -90,3 +90,13 @@ nb : method will call on the object. Here on the child class. But method has to 
     Lamnda can access and modify the variables of his class .
 
     we can user reference to defined a lambda. ex : System.out::println, String::compareTo
+
+---- IO Stream---------
+
+    buffer: is temporary memory area, buffering data somewhere, it is very useful, for exemple if receiver and sender don not have same speed.
+    java.io
+    Byte stream : InputSream, outPutStream
+    character stream (2 bytes) : Reader, writer
+
+    InputStream method : read, available, skip, mark, close,..
+    OutputStream method : write, flush, close,...
