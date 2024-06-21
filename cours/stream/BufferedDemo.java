@@ -19,6 +19,7 @@ public class BufferedDemo {
         System.out.print((char)bis.read());
         System.out.print((char)bis.read());
 
-
+        fis.close();
+        bis.close();
     }
 }
