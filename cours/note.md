@@ -102,3 +102,8 @@ nb : method will call on the object. Here on the child class. But method has to 
     OutputStream method : write, flush, close,...
 
     InputSequencestream : to use two file inputstream, data are from both. SIS= new  InputSequence(fis1, fis2)
+    other stream : ByteArrayInputStream= new ByteArrayInputStream(byte[]);
+                    ByteArrayOutputStream= new ByteArrayOutputStream(20);
+                    CharArrayReader = new CharArrayReader(char[])
+                    PipedStream : consumer and producer (like in multi threading sharing ressources)
+    BufferedStreams :                
