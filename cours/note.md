@@ -100,3 +100,5 @@ nb : method will call on the object. Here on the child class. But method has to 
 
     InputStream method : read, available, skip, mark, close,..
     OutputStream method : write, flush, close,...
+
+    InputSequencestream : to use two file inputstream, data are from both. SIS= new  InputSequence(fis1, fis2)

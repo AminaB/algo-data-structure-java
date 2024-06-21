@@ -8,7 +8,7 @@ import java.io.IOException;
 public class FileExample {
     public static void main(String[] args) {
         try {
-            FileOutputStream fos= new FileOutputStream("./cours/stream/tewst.txt");
+            FileOutputStream fos= new FileOutputStream("./cours/stream/test.txt");
             String str ="learn java";
             fos.write(str.getBytes());
             fos.close();
@@ -20,7 +20,7 @@ public class FileExample {
 
 
         try {
-            FileInputStream fis= new FileInputStream("./cours/stream/tewst.txt");
+            FileInputStream fis= new FileInputStream("./cours/stream/test.txt");
             //or  FileReader fis= new FileReader("./cours/stream/tewst.txt");
 //            byte b[]=new byte[fis.available()];
 //            fis.read(b);
