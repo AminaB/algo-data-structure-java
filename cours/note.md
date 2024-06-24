@@ -107,3 +107,7 @@ nb : method will call on the object. Here on the child class. But method has to 
                     ByteArrayOutputStream= new ByteArrayOutputStream(20);
                     CharArrayReader = new CharArrayReader(char[])
                     PipedStream : consumer and producer (like in multi threading sharing ressources)
+    serialization : 
+        printstream : new PrintStream(fos). println(object);
+        BufferedReadet : new BR(inputStremReader(fis));
+        DataInputStream dataoutputStream
